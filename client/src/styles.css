@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+.app {
+    max-width: 1400px;
+    margin: 5rem auto;
+}
+
+.app__posts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.loading-text,
+.error-text {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.error-text {
+    color: red;
+}
